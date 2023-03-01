@@ -6,7 +6,7 @@ import { mockDataTeam } from "../../data/mockData";
 import AdminPanelSettingsOutlined from "@mui/icons-material/AdminPanelSettings";
 import LockOpenOutlined from "@mui/icons-material/LockOpenOutlined";
 import SecurityOutlined from "@mui/icons-material/SecurityOutlined";
-import { Header } from "../../components/Header";
+import Header from "../../components/Header";
 
 const Team = () => {
   const theme = useTheme();

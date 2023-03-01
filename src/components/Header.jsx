@@ -2,7 +2,7 @@ import React from "react";
 import { Typography, Box, useTheme } from "@mui/material";
 import { tokens } from "../theme";
 
-export const Header = ({ title, subtitle }) => {
+const Header = ({ title, subtitle }) => {
   const theme = useTheme();
   const colors = tokens(theme.palette.mode);
   return (
@@ -22,3 +22,5 @@ export const Header = ({ title, subtitle }) => {
     </Box>
   );
 };
+
+export default Header;
